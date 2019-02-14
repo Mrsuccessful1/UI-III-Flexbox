@@ -75,7 +75,6 @@ h1, h2, h3, h4, h5 {
   
   header {
 	display: flex;
-	flex-direction: row;
   }
 
   p {
@@ -184,4 +183,9 @@ h1, h2, h3, h4, h5 {
 
 	footer {
 		text-align: center;
+	}
+
+	ul	{
+		display: block;
+		text-align: left;
 	}
