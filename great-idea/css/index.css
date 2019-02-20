@@ -145,6 +145,8 @@ h1, h2, h3, h4, h5 {
   }
   
   .main-content {
+	display: flex;
+	flex-flow: wrap;
 	border-top: 1px solid black;
 	margin-top: 76px;
 	padding-top: 39px;
@@ -188,4 +190,27 @@ h1, h2, h3, h4, h5 {
 	ul	{
 		display: block;
 		text-align: left;
+	}
+
+	.service-boxes div{
+		display: inline-block;
+		align-content: center;
+		margin: 10px;
+		width: 47%;
+		background: whitesmoke;
+		border: 1px solid black;
+
+	}
+
+	.services-bottom-content{
+		display: flex;
+		border-top: 1px solid black;
+		padding-top: 20px;
+		margin-top: 20px;
+
+	}
+
+	.services-bottom-content div{
+		display: inline-block;
+		width: 50%;
 	}
